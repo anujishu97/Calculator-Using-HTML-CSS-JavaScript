@@ -1,0 +1,68 @@
+body{
+	background-color: #9266ff;
+}
+#main{
+	background-color: #3f3160;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+  border-radius:30px 10px
+}
+
+#data input{
+	background-color: rgb(27, 112, 137);
+  border: 0px solid;
+  height: 50px;
+  margin: 20px;
+  margin-left: 70px;
+  padding: 0 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+}
+#data label{
+	align-content: center;
+  border: 0px solid;
+  height: 50px;
+  margin: 20px;
+  margin-left: 70px;
+  padding: 0 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+ h1{
+   border: 0px solid;
+  height: 50px;
+  margin: 20px;
+  margin-left: 120px;
+  background-position: center;
+  color: white;
+  }
+
+#data input[type=number]:focus {
+  outline: none;
+}
+
+#data input[type=number]::placeholder {
+  color: white;
+}
+
+#data button{
+  background-color: rgb(221, 167, 18);
+  border:0;
+  width:80px;
+  height: 50px;
+  margin:10px;
+  margin-left: 70px;
+  padding: 0 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bolder;
+ 
+}
+
+#data button:focus{
+	outline: none;
+}
